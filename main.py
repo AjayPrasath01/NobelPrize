@@ -1,9 +1,9 @@
-from typing import List
-
 import json
 import logging
-import pandas as pd
 import random
+from typing import List
+
+import pandas as pd
 import requests
 
 LOG_FILE = "log.log"
@@ -90,7 +90,8 @@ class NobelPriceParser:
             return pd.NA
 
     def save(self, filename: str):
-        self.laureate_dataframe.to_csv("out.csv")
+        logging.debug("Saving dataframe")
+        self.laureate_dataframe.to_csv(filename)
 
 
 if __name__ == '__main__':

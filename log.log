@@ -1,15 +1,15 @@
-2022-10-10 22:46:47,940 - DEBUG - Starting new HTTP connection (1): api.nobelprize.org:80
-2022-10-10 22:46:48,103 - DEBUG - http://api.nobelprize.org:80 "GET /v1/laureate.json HTTP/1.1" 301 None
-2022-10-10 22:46:48,108 - DEBUG - Starting new HTTPS connection (1): api.nobelprize.org:443
-2022-10-10 22:46:48,317 - DEBUG - https://api.nobelprize.org:443 "GET /v1/laureate.json HTTP/1.1" 200 None
-2022-10-10 22:46:48,332 - DEBUG - Starting new HTTP connection (1): api.nobelprize.org:80
-2022-10-10 22:46:48,479 - DEBUG - http://api.nobelprize.org:80 "GET /v1/country.json HTTP/1.1" 301 None
-2022-10-10 22:46:48,483 - DEBUG - Starting new HTTPS connection (1): api.nobelprize.org:443
-2022-10-10 22:46:48,668 - DEBUG - https://api.nobelprize.org:443 "GET /v1/country.json HTTP/1.1" 200 None
-2022-10-10 22:46:48,718 - DEBUG - name column is created
-2022-10-10 22:46:48,718 - DEBUG - born is renamed to dob
-2022-10-10 22:46:48,720 - DEBUG - unique_prize_years column is created
-2022-10-10 22:46:48,721 - DEBUG - unique_prize_categories column is created
-2022-10-10 22:46:49,040 - DEBUG - born_country_code_mapped column is created
-2022-10-10 22:46:49,042 - DEBUG - Selecting only required columns
-2022-10-10 22:46:49,042 - DEBUG - parser completed successfully
+2022-10-10 23:00:46,684 - DEBUG - Starting new HTTP connection (1): api.nobelprize.org:80
+2022-10-10 23:00:46,788 - DEBUG - http://api.nobelprize.org:80 "GET /v1/laureate.json HTTP/1.1" 301 None
+2022-10-10 23:00:46,791 - DEBUG - Starting new HTTPS connection (1): api.nobelprize.org:443
+2022-10-10 23:00:46,880 - DEBUG - https://api.nobelprize.org:443 "GET /v1/laureate.json HTTP/1.1" 200 None
+2022-10-10 23:00:46,893 - DEBUG - Starting new HTTP connection (1): api.nobelprize.org:80
+2022-10-10 23:00:46,953 - DEBUG - http://api.nobelprize.org:80 "GET /v1/country.json HTTP/1.1" 301 None
+2022-10-10 23:00:46,955 - DEBUG - Starting new HTTPS connection (1): api.nobelprize.org:443
+2022-10-10 23:00:47,025 - DEBUG - https://api.nobelprize.org:443 "GET /v1/country.json HTTP/1.1" 200 None
+2022-10-10 23:00:47,070 - DEBUG - name column is created
+2022-10-10 23:00:47,071 - DEBUG - born is renamed to dob
+2022-10-10 23:00:47,073 - DEBUG - unique_prize_years column is created
+2022-10-10 23:00:47,074 - DEBUG - unique_prize_categories column is created
+2022-10-10 23:00:47,450 - DEBUG - born_country_code_mapped column is created
+2022-10-10 23:00:47,453 - DEBUG - Selecting only required columns
+2022-10-10 23:00:47,453 - DEBUG - parser completed successfully
